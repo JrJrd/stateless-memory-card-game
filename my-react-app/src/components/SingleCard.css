@@ -6,3 +6,32 @@
   width: 100%;
   display: block;
 }
+
+
+.card .front {
+  transform: rotateY(90deg);
+  position: absolute;
+}
+
+.flipped .front {
+  transform: rotateY(1deg);
+}
+
+
+.card .front {
+  width: 120%; 
+  height: 120%; 
+  top: -10%; 
+  left: -10%; 
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.card .back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2;
+}
+  .flipped .back {
+    transition: rotateY(90deg);
+    transition-delay: 0;
+    display: none;
+  }

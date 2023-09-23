@@ -3,12 +3,15 @@
 
 
 
-
 body {
   font-family: "Josefin Sans", sans-serif;
   margin: 0;
   text-align: center;
   font-size: 1.5rem;
-  background-color: rgb(221, 210, 210);
-  color: rgb(39, 12, 12);
+  color: #000000; 
+  background-image: linear-gradient(to bottom, #ddcd88, #ffffff);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
 }

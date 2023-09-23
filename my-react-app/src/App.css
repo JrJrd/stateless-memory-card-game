@@ -4,17 +4,19 @@
 }
 button {
   background: none;
-  border: 2px solid #fff;
-  padding: 6px 12px;
+  border: 2px solid #c23866; 
+  padding: 10px 20px; 
   border-radius: 4px;
-  color: #fff;
+  color: #000000;
   font-weight: bold;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1.2em; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
+
 button:hover {
-  background: #c23866;
-  color: #fff;
+  background: #fffeff; 
+  color: #000000; 
 }
 
 .card-grid {
